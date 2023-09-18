@@ -1,0 +1,6 @@
+	
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/codebymi/public_html/
+    - /bin/cp * $DEPLOYPATH
